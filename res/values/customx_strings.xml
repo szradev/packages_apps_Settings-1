@@ -20,5 +20,9 @@
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
 
+    <!-- Feature Extension -->
+    <string name="feature_extension_title">Feature Extension</string>
+    <string name="feature_extension_dashboard_summary">Home of pex customisation</string>
+
 </resources>
 

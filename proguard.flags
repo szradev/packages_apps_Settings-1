@@ -13,6 +13,8 @@
     *;
 }
 
+-keep class com.pex.feature.extension.**
+
 -keep class * extends com.android.settings.core.TogglePreferenceController {
     *;
 }

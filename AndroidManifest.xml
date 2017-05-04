@@ -3405,6 +3405,19 @@
                        android:value="com.android.settings.sound.MediaControlsSettings" />
         </activity>
 
+        <!-- Feature Extension  -->
+        <activity android:name=".Settings$FeatureExtensionActivity"
+            android:label="@string/feature_extension_title"
+            android:icon="@drawable/ic_homepage_feature_extension"
+            android:parentActivityName="com.android.settings">
+            <intent-filter android:priority="31">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.pex.feature.extension.FeatureExtension" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
