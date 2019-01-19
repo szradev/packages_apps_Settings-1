@@ -16,5 +16,11 @@
     <bool name="config_show_min_refresh_rate_switch">false</bool>
 
    <!-- Smart Charging -->
-    <bool name="config_supportSmartCharging">true</bool>
+   <bool name="config_supportSmartCharging">true</bool>
+
+   <!-- Battery Health -->
+   <string name="config_batCurCap"></string>
+   <string name="config_batDesCap"></string>
+   <string name="config_batChargeCycle"></string>
+   <bool name="config_supportBatteryHealth">false</bool>
 </resources>
