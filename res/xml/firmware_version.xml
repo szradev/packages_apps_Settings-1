@@ -23,10 +23,9 @@
     settings:keywords="@string/keywords_android_version">
 
     <!-- logo -->
-    <PreferenceScreen
-        android:key="custom_logo"
-        android:enabled="false"
-        android:layout="@layout/custom_logo" />
+    <Preference
+        android:key="pex_anim"
+        android:layout="@layout/pex_anim" />
 
     <!-- Android version -->
     <Preference
