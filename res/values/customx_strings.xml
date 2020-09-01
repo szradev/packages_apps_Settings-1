@@ -450,5 +450,7 @@
     <string name="heads_up_notifications_enabled_title">Pop-up notifications</string>
     <string name="heads_up_notifications_enabled_summary">Display priority notifications in a small floating window</string>
 
+    <!-- PEX version in About phone -->
+    <string name="pex_version_title">Extended version</string>
 </resources>
 
