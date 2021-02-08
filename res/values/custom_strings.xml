@@ -159,4 +159,9 @@
     <string name="designed_battery_capacity">Designed battery capacity</string>
     <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
     <string name="battery_charge_cycles">Charge Cycles Completed</string>
+
+    <!-- Navbar radius -->
+    <string name="navbar_radius">Gesture bar Radius</string>
+    <string name="small_label">1 dp</string>
+    <string name="big_label">4 dp</string>
 </resources>
