@@ -13,8 +13,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- PEX version in About phone -->
-    <string name="pex_version_title">Extended version</string>
-    <string name="build_date">Build date</string>
+    <string name="pex_version_title">Polsza wersja</string>
+    <string name="build_date">Data buildu</string>
 
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>

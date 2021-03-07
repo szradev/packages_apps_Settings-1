@@ -22,11 +22,8 @@
     settings:keywords="@string/keywords_android_version">
 
     <!-- logo -->
-    <Preference
-        android:key="pex_anim"
-        android:clickable="true"
-        android:layout="@layout/pex_anim"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.RomLogoPreferenceController"/>
+
+
 
     <!-- Android version -->
     <Preference
@@ -52,7 +49,7 @@
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.MaintainerPreferenceController"/>
-	    
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
